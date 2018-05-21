@@ -1,11 +1,33 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Receiver-rescue:BPW34-opto
+# Connector_Conn_01x01
 #
-DEF Receiver-rescue:BPW34-opto D 0 40 N N 1 F N
+DEF Connector_Conn_01x01 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x01" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 5 0 -5 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Receiver-rescue_BPW34-opto
+#
+DEF Receiver-rescue_BPW34-opto D 0 40 N N 1 F N
 F0 "D" 20 70 50 H V L CNN
-F1 "Receiver-rescue:BPW34-opto" -40 -110 50 H V C CNN
+F1 "Receiver-rescue_BPW34-opto" -40 -110 50 H V C CNN
 F2 "Opto-Devices:PhotoDiode_DIL2_4.3x4.65_RM5.08" 0 175 50 H I C CNN
 F3 "" -50 0 50 H I C CNN
 $FPLIST
@@ -22,11 +44,11 @@ X A 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Receiver-rescue:POT-device
+# Receiver-rescue_POT-device
 #
-DEF Receiver-rescue:POT-device RV 0 40 N N 1 F N
+DEF Receiver-rescue_POT-device RV 0 40 N N 1 F N
 F0 "RV" -175 0 50 V V C CNN
-F1 "Receiver-rescue:POT-device" -100 0 50 V V C CNN
+F1 "Receiver-rescue_POT-device" -100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -42,11 +64,11 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Receiver-rescue:TL074-linear
+# Receiver-rescue_TL074-linear
 #
-DEF Receiver-rescue:TL074-linear U 0 20 Y Y 4 F N
+DEF Receiver-rescue_TL074-linear U 0 20 Y Y 4 F N
 F0 "U" 0 200 50 H V L CNN
-F1 "Receiver-rescue:TL074-linear" 0 -200 50 H V L CNN
+F1 "Receiver-rescue_TL074-linear" 0 -200 50 H V L CNN
 F2 "" -50 100 50 H I C CNN
 F3 "" 50 200 50 H I C CNN
 $FPLIST
@@ -75,11 +97,11 @@ X ~ 14 300 0 100 L 50 50 4 1 O
 ENDDRAW
 ENDDEF
 #
-# device:C_Small
+# device_C_Small
 #
-DEF device:C_Small C 0 10 N N 1 F N
+DEF device_C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "device:C_Small" 10 -80 50 H V L CNN
+F1 "device_C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -93,15 +115,16 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:D
+# device_D
 #
-DEF device:D D 0 40 N N 1 F N
+DEF device_D D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "device:D" 0 -100 50 H V C CNN
+F1 "device_D" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  TO-???*
+ *SingleDiode
  *_Diode_*
  *SingleDiode*
  D_*
@@ -115,14 +138,15 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device:R
+# device_R
 #
-DEF device:R R 0 0 N Y 1 F N
+DEF device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "device:R" 0 0 50 V V C CNN
+F1 "device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
+ R_*
  R_*
 $ENDFPLIST
 DRAW
@@ -132,11 +156,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power:+12V
+# power_+12V
 #
-DEF power:+12V #PWR 0 0 Y Y 1 F P
+DEF power_+12V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+12V" 0 140 50 H V C CNN
+F1 "power_+12V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -147,11 +171,11 @@ X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:-12V
+# power_-12V
 #
-DEF power:-12V #PWR 0 0 Y Y 1 F P
+DEF power_-12V #PWR 0 0 Y Y 1 F N
 F0 "#PWR" 0 100 50 H I C CNN
-F1 "power:-12V" 0 150 50 H V C CNN
+F1 "power_-12V" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -160,11 +184,11 @@ X -12V 1 0 0 0 U 50 50 0 0 W N
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
