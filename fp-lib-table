@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name optoreceiver)(type KiCad)(uri "$(KIPRJMOD)/optoreceiver.pretty")(options "")(descr ""))
+)
