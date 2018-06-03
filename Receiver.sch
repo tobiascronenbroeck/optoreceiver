@@ -31,7 +31,7 @@ U 1 1 5AEAF24B
 P 2950 4100
 F 0 "U1" H 2950 4300 50  0000 L CNN
 F 1 "TL074 (ggf. durch TLV4172IPWR ersetzen)" H 2950 3900 50  0000 L CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 2900 4200 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2900 4200 50  0001 C CNN
 F 3 "" H 3000 4300 50  0001 C CNN
 	1    2950 4100
 	1    0    0    1   
@@ -48,20 +48,16 @@ F 3 "" H 2850 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:-12V #PWR5
+L power:-12V #PWR05
 U 1 1 5AEAF2F4
 P 2850 3750
-F 0 "#PWR5" H 2850 3850 50  0001 C CNN
+F 0 "#PWR05" H 2850 3850 50  0001 C CNN
 F 1 "-12V" H 2850 3900 50  0000 C CNN
 F 2 "" H 2850 3750 50  0001 C CNN
 F 3 "" H 2850 3750 50  0001 C CNN
 	1    2850 3750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2850 4400 2850 4500
-Wire Wire Line
-	2850 3750 2850 3800
 Wire Wire Line
 	2550 4000 2650 4000
 Wire Wire Line
@@ -76,13 +72,13 @@ U 2 1 5AEAF508
 P 4850 4200
 F 0 "U1" H 4850 4400 50  0000 L CNN
 F 1 "TL074 (ggf. durch TLV4172IPWR ersetzen)" H 4850 4000 50  0000 L CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 4800 4300 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4800 4300 50  0001 C CNN
 F 3 "" H 4900 4400 50  0001 C CNN
 	2    4850 4200
 	1    0    0    1   
 $EndComp
 $Comp
-L device:R R1
+L Device:R R1
 U 1 1 5AEAF541
 P 3600 4100
 F 0 "R1" V 3680 4100 50  0000 C CNN
@@ -93,7 +89,7 @@ F 3 "" H 3600 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R2
+L Device:R R2
 U 1 1 5AEAF581
 P 3850 4350
 F 0 "R2" V 3930 4350 50  0000 C CNN
@@ -122,7 +118,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 3700 3850 4100
 $Comp
-L device:C_Small C4
+L Device:C_Small C4
 U 1 1 5AEAF686
 P 4150 4100
 F 0 "C4" H 4160 4170 50  0000 L CNN
@@ -133,7 +129,7 @@ F 3 "" H 4150 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C3
+L Device:C_Small C3
 U 1 1 5AEAF715
 P 4150 3700
 F 0 "C3" H 4160 3770 50  0000 L CNN
@@ -146,7 +142,7 @@ $EndComp
 Wire Wire Line
 	4250 4100 4400 4100
 $Comp
-L device:R R3
+L Device:R R3
 U 1 1 5AEAF96B
 P 4400 3900
 F 0 "R3" V 4480 3900 50  0000 C CNN
@@ -172,7 +168,7 @@ Wire Wire Line
 	5150 4200 5300 4200
 Connection ~ 4400 3700
 $Comp
-L device:R R4
+L Device:R R4
 U 1 1 5AEAFA8E
 P 5300 4500
 F 0 "R4" V 5380 4500 50  0000 C CNN
@@ -183,7 +179,7 @@ F 3 "" H 5300 4500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R5
+L Device:R R5
 U 1 1 5AEAFAD7
 P 5300 4900
 F 0 "R5" V 5380 4900 50  0000 C CNN
@@ -222,13 +218,13 @@ U 3 1 5AEAFDA1
 P 6900 4300
 F 0 "U1" H 6900 4500 50  0000 L CNN
 F 1 "TL074 (ggf. durch TLV4172IPWR ersetzen)" H 6900 4100 50  0000 L CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 6850 4400 50  0001 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 6850 4400 50  0001 C CNN
 F 3 "" H 6950 4500 50  0001 C CNN
 	3    6900 4300
 	1    0    0    1   
 $EndComp
 $Comp
-L device:R R6
+L Device:R R6
 U 1 1 5AEAFDA7
 P 5650 4200
 F 0 "R6" V 5730 4200 50  0000 C CNN
@@ -239,7 +235,7 @@ F 3 "" H 5650 4200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R7
+L Device:R R7
 U 1 1 5AEAFDAD
 P 5900 4450
 F 0 "R7" V 5980 4450 50  0000 C CNN
@@ -267,7 +263,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 3800 5900 4200
 $Comp
-L device:C_Small C6
+L Device:C_Small C6
 U 1 1 5AEAFDBC
 P 6200 4200
 F 0 "C6" H 6210 4270 50  0000 L CNN
@@ -278,7 +274,7 @@ F 3 "" H 6200 4200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C_Small C5
+L Device:C_Small C5
 U 1 1 5AEAFDC2
 P 6200 3800
 F 0 "C5" H 6210 3870 50  0000 L CNN
@@ -291,7 +287,7 @@ $EndComp
 Wire Wire Line
 	6300 4200 6450 4200
 $Comp
-L device:R R8
+L Device:R R8
 U 1 1 5AEAFDC9
 P 6450 4000
 F 0 "R8" V 6530 4000 50  0000 C CNN
@@ -317,7 +313,7 @@ Wire Wire Line
 	7200 4300 7350 4300
 Connection ~ 6450 3800
 $Comp
-L device:R R9
+L Device:R R9
 U 1 1 5AEAFDD8
 P 7350 4600
 F 0 "R9" V 7430 4600 50  0000 C CNN
@@ -328,7 +324,7 @@ F 3 "" H 7350 4600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R10
+L Device:R R10
 U 1 1 5AEAFDDE
 P 7350 5000
 F 0 "R10" V 7430 5000 50  0000 C CNN
@@ -362,7 +358,7 @@ Connection ~ 7350 4300
 Wire Wire Line
 	7350 5150 7350 5250
 $Comp
-L device:C_Small C1
+L Device:C_Small C1
 U 1 1 5AEAFE56
 P 2700 1700
 F 0 "C1" H 2710 1770 50  0000 L CNN
@@ -386,10 +382,10 @@ $EndComp
 Wire Wire Line
 	2700 1450 2700 1500
 $Comp
-L power:-12V #PWR2
+L power:-12V #PWR02
 U 1 1 5AEAFF86
 P 2700 1950
-F 0 "#PWR2" H 2700 2050 50  0001 C CNN
+F 0 "#PWR02" H 2700 2050 50  0001 C CNN
 F 1 "-12V" H 2700 2100 50  0000 C CNN
 F 2 "" H 2700 1950 50  0001 C CNN
 F 3 "" H 2700 1950 50  0001 C CNN
@@ -414,13 +410,13 @@ U 1 1 5AEB0423
 P 8550 3500
 F 0 "RV2" V 8375 3500 50  0000 C CNN
 F 1 "50K" V 8450 3500 50  0000 C CNN
-F 2 "SparkFun-Electromechanical:TRIM_POT" H 8550 3500 50  0001 C CNN
+F 2 "User-Submitted:BOURNS-3362P_pot" H 8550 3500 50  0001 C CNN
 F 3 "" H 8550 3500 50  0001 C CNN
 	1    8550 3500
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D2
+L Device:D D2
 U 1 1 5AEB05C3
 P 7700 4300
 F 0 "D2" H 7700 4400 50  0000 C CNN
@@ -431,7 +427,7 @@ F 3 "" H 7700 4300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C_Small C7
+L Device:C_Small C7
 U 1 1 5AEB0668
 P 8000 4550
 F 0 "C7" H 8010 4620 50  0000 L CNN
@@ -458,17 +454,6 @@ Wire Wire Line
 	8000 4450 8000 4300
 Wire Wire Line
 	7850 4300 8000 4300
-$Comp
-L Receiver-rescue:TL074-linear U1
-U 4 1 5AEB085F
-P 8650 4200
-F 0 "U1" H 8650 4400 50  0000 L CNN
-F 1 "TL074 (ggf. durch TLV4172IPWR ersetzen)" H 8650 4000 50  0000 L CNN
-F 2 "Package_SO:TSSOP-14_4.4x5mm_P0.65mm" H 8600 4300 50  0001 C CNN
-F 3 "" H 8700 4400 50  0001 C CNN
-	4    8650 4200
-	1    0    0    1   
-$EndComp
 Connection ~ 8000 4300
 Wire Wire Line
 	8000 4100 8350 4100
@@ -484,7 +469,7 @@ Wire Wire Line
 Wire Wire Line
 	8950 4200 9150 4200
 $Comp
-L device:R R12
+L Device:R R12
 U 1 1 5AEB0CD1
 P 9400 4200
 F 0 "R12" V 9480 4200 50  0000 C CNN
@@ -496,7 +481,7 @@ F 3 "" H 9400 4200 50  0001 C CNN
 $EndComp
 Connection ~ 9150 4200
 $Comp
-L device:C_Small C8
+L Device:C_Small C8
 U 1 1 5AEB0DB0
 P 9650 4400
 F 0 "C8" H 9660 4470 50  0000 L CNN
@@ -529,7 +514,7 @@ U 1 1 5AEB18C3
 P 2900 3350
 F 0 "RV1" V 2725 3350 50  0000 C CNN
 F 1 "100K" V 2800 3350 50  0000 C CNN
-F 2 "SparkFun-Electromechanical:TRIM_POT" H 2900 3350 50  0001 C CNN
+F 2 "User-Submitted:BOURNS-3362P_pot" H 2900 3350 50  0001 C CNN
 F 3 "" H 2900 3350 50  0001 C CNN
 	1    2900 3350
 	0    1    1    0   
@@ -615,7 +600,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 4000 2550 4000
 $Comp
-L device:R R11
+L Device:R R11
 U 1 1 5AF96B45
 P 8000 3400
 F 0 "R11" V 8080 3400 50  0000 C CNN
@@ -642,7 +627,7 @@ Wire Wire Line
 	8000 3550 8000 3700
 NoConn ~ 8400 3500
 $Comp
-L device:C_Small C2
+L Device:C_Small C2
 U 1 1 5AFB3597
 P 3100 1700
 F 0 "C2" H 3110 1770 50  0000 L CNN
@@ -653,7 +638,7 @@ F 3 "" H 3100 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x01 J1
+L Connector:Conn_01x01_Female J1
 U 1 1 5B031E2F
 P 1950 1500
 F 0 "J1" H 1870 1275 50  0000 C CNN
@@ -664,7 +649,7 @@ F 3 "~" H 1950 1500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x01 J3
+L Connector:Conn_01x01_Female J3
 U 1 1 5B0321C2
 P 1950 2250
 F 0 "J3" H 1870 2025 50  0000 C CNN
@@ -675,7 +660,7 @@ F 3 "~" H 1950 2250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x01 J2
+L Connector:Conn_01x01_Female J2
 U 1 1 5B032258
 P 1950 1850
 F 0 "J2" H 1870 1625 50  0000 C CNN
@@ -686,7 +671,7 @@ F 3 "~" H 1950 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x01 J4
+L Connector:Conn_01x01_Female J4
 U 1 1 5B03236E
 P 1950 1100
 F 0 "J4" H 2030 1142 50  0000 L CNN
@@ -719,7 +704,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 2250 2300 2400
 $Comp
-L device:LED D3
+L Device:LED D3
 U 1 1 5B14466C
 P 4300 2050
 F 0 "D3" V 4338 1933 50  0000 R CNN
@@ -732,7 +717,7 @@ $EndComp
 Wire Wire Line
 	4300 2200 4300 2250
 $Comp
-L device:R R13
+L Device:R R13
 U 1 1 5B14B3A1
 P 3700 1500
 F 0 "R13" H 3770 1546 50  0000 L CNN
@@ -743,7 +728,7 @@ F 3 "" H 3700 1500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Connector:Conn_01x04 J5
+L Connector:Conn_01x04_Female J5
 U 1 1 5B150E6D
 P 4850 1750
 F 0 "J5" H 4770 2067 50  0000 C CNN
@@ -786,10 +771,10 @@ F 3 "" H 5150 1750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:-12V #PWR15
+L power:-12V #PWR015
 U 1 1 5B15948E
 P 5150 1850
-F 0 "#PWR15" H 5150 1950 50  0001 C CNN
+F 0 "#PWR015" H 5150 1950 50  0001 C CNN
 F 1 "-12V" V 5165 1978 50  0000 L CNN
 F 2 "" H 5150 1850 50  0001 C CNN
 F 3 "" H 5150 1850 50  0001 C CNN
@@ -811,7 +796,7 @@ Wire Wire Line
 	2300 2250 4100 2250
 Connection ~ 2300 2250
 $Comp
-L device:R R14
+L Device:R R14
 U 1 1 5B17749B
 P 3700 1850
 F 0 "R14" H 3770 1896 50  0000 L CNN
@@ -825,7 +810,7 @@ Wire Wire Line
 	3550 1850 3100 1850
 Connection ~ 3100 1850
 $Comp
-L device:LED D4
+L Device:LED D4
 U 1 1 5B182712
 P 4100 2050
 F 0 "D4" V 4138 1933 50  0000 R CNN
@@ -848,4 +833,30 @@ Wire Wire Line
 	3850 1500 4300 1500
 Wire Wire Line
 	4300 1500 4300 1900
+Wire Wire Line
+	2850 4400 2850 4500
+Wire Wire Line
+	2850 3750 2850 3800
+$Comp
+L power:+12V #PWR0104
+U 1 1 5B16DE44
+P 4750 4500
+F 0 "#PWR0104" H 4750 4350 50  0001 C CNN
+F 1 "+12V" H 4750 4640 50  0000 C CNN
+F 2 "" H 4750 4500 50  0001 C CNN
+F 3 "" H 4750 4500 50  0001 C CNN
+	1    4750 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Receiver-rescue:TL074-linear U1
+U 4 1 5AEB085F
+P 8650 4200
+F 0 "U1" H 8650 4400 50  0000 L CNN
+F 1 "TL074 (ggf. durch TLV4172IPWR ersetzen)" H 8650 4000 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 8600 4300 50  0001 C CNN
+F 3 "" H 8700 4400 50  0001 C CNN
+	4    8650 4200
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
